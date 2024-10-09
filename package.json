@@ -1,0 +1,35 @@
+{
+  "name": "@pizzaton/pizzabox",
+  "license": "MIT",
+  "version": "1.0.0",
+  "description": "Typescript sdk to interact with PizzaBox (PizzaTon Jetton Locker Service on TON blockchain)",
+  "keywords": [
+    "demo",
+    "typescript"
+  ],
+  "homepage": "https://github.com/mhbdev/pizzabox-sdk",
+  "bugs": {
+    "url": "https://github.com/mhbdev/pizzabox-sdk/issues"
+  },
+  "author": "Mahdi Bagheri (MonoBit)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mhbdev/pizzabox-sdk.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "ci": "npm run build",
+    "format": "prettier --write ."
+  },
+  "type": "module",
+  "dependencies": {
+    "@ton/ton": "^15.1.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.3.3",
+    "typescript": "^5.6.3"
+  }
+}
