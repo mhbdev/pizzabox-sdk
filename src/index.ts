@@ -1,1 +1,1 @@
-export {PizzaBox} from "./pizza-box.js";
+export {PizzaBox} from "./pizza-box.ts";
