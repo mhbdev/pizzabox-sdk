@@ -17,6 +17,6 @@
     /* If transpiling with TypeScript: */
     "module": "NodeNext",
 
-    "noEmit": true,
+    "noEmit": true
   }
 }
