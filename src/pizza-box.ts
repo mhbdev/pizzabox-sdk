@@ -1,5 +1,4 @@
-import {Address, address, beginCell, Cell, Dictionary, toNano, TupleBuilder, TupleItem, TupleReader} from "@ton/core";
-import TonWeb from "tonweb";
+import {Address, address, beginCell, Cell, Dictionary, toNano, TupleReader} from "@ton/core";
 import {sha256_sync} from "@ton/crypto";
 import {Api, TonApiClient} from "@ton-api/client";
 
